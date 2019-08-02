@@ -1,0 +1,307 @@
+﻿Compilación iniciada a las 03/03/2019 20:41:17.
+     1>Proyecto "D:\Maxi\Doom3Mods\Doom3SDKFull\src\idlib.vcxproj" en el nodo 2 (build destinos).
+     1>InitializeBuildStatus:
+         Se creará "idLib/ReleaseDLL\idlib.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Imssdk/include /Zi /nologo /W3 /WX- /O2 /Ob2 /Oi /Ot /Oy /D _D3SDK /D __DOOM__ /D __IDLIB__ /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /GF /Gm- /EHsc /MT /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR /Yc /Fp"idLib/ReleaseDLL\idLib.pch" /Fo"idLib/ReleaseDLL\\" /Fd"idLib/ReleaseDLL\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt idlib\Base64.cpp
+         Base64.cpp
+     1>d:\maxi\doom3mods\doom3sdkfull\src\idlib\../idlib/Lib.h(129): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : vea la declaración de 'strcpy'
+     1>d:\maxi\doom3mods\doom3sdkfull\src\idlib\Str.h(312): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : vea la declaración de 'strcpy'
+     1>d:\maxi\doom3mods\doom3sdkfull\src\idlib\Str.h(352): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : vea la declaración de 'strcpy'
+     1>d:\maxi\doom3mods\doom3sdkfull\src\idlib\Str.h(407): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : vea la declaración de 'sprintf'
+     1>d:\maxi\doom3mods\doom3sdkfull\src\idlib\Str.h(409): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : vea la declaración de 'strcpy'
+     1>d:\maxi\doom3mods\doom3sdkfull\src\idlib\Str.h(418): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : vea la declaración de 'sprintf'
+     1>d:\maxi\doom3mods\doom3sdkfull\src\idlib\Str.h(420): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : vea la declaración de 'strcpy'
+     1>d:\maxi\doom3mods\doom3sdkfull\src\idlib\Str.h(433): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : vea la declaración de 'strcpy'
+     1>d:\maxi\doom3mods\doom3sdkfull\src\idlib\Str.h(511): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : vea la declaración de 'sprintf'
+     1>d:\maxi\doom3mods\doom3sdkfull\src\idlib\Str.h(521): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : vea la declaración de 'sprintf'
+     1>d:\maxi\doom3mods\doom3sdkfull\src\idlib\Str.h(531): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : vea la declaración de 'sprintf'
+     1>d:\maxi\doom3mods\doom3sdkfull\src\idlib\Str.h(540): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : vea la declaración de 'sprintf'
+     1>d:\maxi\doom3mods\doom3sdkfull\src\idlib\Str.h(549): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : vea la declaración de 'sprintf'
+     1>d:\maxi\doom3mods\doom3sdkfull\src\idlib\Str.h(558): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : vea la declaración de 'sprintf'
+     1>d:\maxi\doom3mods\doom3sdkfull\src\idlib\Base64.h(80): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : vea la declaración de 'strcpy'
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Imssdk/include /Zi /nologo /W3 /WX- /O2 /Ob2 /Oi /Ot /Oy /D _D3SDK /D __DOOM__ /D __IDLIB__ /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /GF /Gm- /EHsc /MT /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR /Yu /Fp"idLib/ReleaseDLL\idLib.pch" /Fo"idLib/ReleaseDLL\\" /Fd"idLib/ReleaseDLL\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt idlib\BitMsg.cpp idlib\CmdArgs.cpp idlib\Dict.cpp idlib\Heap.cpp idlib\LangDict.cpp idlib\Lexer.cpp idlib\Lib.cpp idlib\MapFile.cpp idlib\Parser.cpp idlib\Str.cpp idlib\Timer.cpp idlib\Token.cpp idlib\bv\Bounds.cpp idlib\bv\Box.cpp idlib\bv\Frustum.cpp idlib\bv\Sphere.cpp idlib\containers\HashIndex.cpp idlib\geometry\DrawVert.cpp idlib\geometry\JointTransform.cpp idlib\geometry\Surface.cpp idlib\geometry\Surface_Patch.cpp idlib\geometry\Surface_Polytope.cpp idlib\geometry\Surface_SweptSpline.cpp idlib\geometry\TraceModel.cpp idlib\geometry\Winding.cpp idlib\geometry\Winding2D.cpp idlib\hashing\CRC16.cpp idlib\hashing\CRC32.cpp idlib\hashing\CRC8.cpp idlib\hashing\Honeyman.cpp idlib\hashing\MD4.cpp idlib\hashing\MD5.cpp idlib\math\Angles.cpp idlib\math\Complex.cpp idlib\math\Lcp.cpp idlib\math\Math.cpp idlib\math\Matrix.cpp idlib\math\Ode.cpp idlib\math\Plane.cpp idlib\math\Pluecker.cpp idlib\math\Polynomial.cpp idlib\math\Quat.cpp idlib\math\Rotation.cpp idlib\math\Simd.cpp idlib\math\Simd_3DNow.cpp idlib\math\Simd_Generic.cpp idlib\math\Simd_MMX.cpp idlib\math\Simd_SSE.cpp idlib\math\Simd_SSE2.cpp idlib\math\Simd_SSE3.cpp idlib\math\Vector.cpp
+         BitMsg.cpp
+         CmdArgs.cpp
+     1>idlib\CmdArgs.cpp(4): warning C4627: '#include "../idlib/precompiled.h"': se omite al buscar el uso del encabezado precompilado
+                 Agregar directiva a 'archivo con encabezado precompilado (.h)' o volver a generar el encabezado precompilado
+     1>idlib\CmdArgs.cpp(38): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : vea la declaración de 'strcat'
+     1>idlib\CmdArgs.cpp(43): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : vea la declaración de 'strcat'
+     1>idlib\CmdArgs.cpp(45): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : vea la declaración de 'strcat'
+     1>idlib\CmdArgs.cpp(52): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : vea la declaración de 'strcat'
+     1>idlib\CmdArgs.cpp(61): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : vea la declaración de 'strcat'
+     1>idlib\CmdArgs.cpp(65): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : vea la declaración de 'strcat'
+         Dict.cpp
+     1>idlib\Dict.cpp(346): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : vea la declaración de 'sscanf'
+     1>idlib\Dict.cpp(365): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : vea la declaración de 'sscanf'
+     1>idlib\Dict.cpp(384): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : vea la declaración de 'sscanf'
+     1>idlib\Dict.cpp(403): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : vea la declaración de 'sscanf'
+     1>idlib\Dict.cpp(422): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : vea la declaración de 'sscanf'
+         Heap.cpp
+     1>idlib\Heap.cpp(4): warning C4627: '#include "../idlib/precompiled.h"': se omite al buscar el uso del encabezado precompilado
+                 Agregar directiva a 'archivo con encabezado precompilado (.h)' o volver a generar el encabezado precompilado
+     1>idlib\Heap.cpp(1148): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : vea la declaración de 'strcpy'
+         LangDict.cpp
+         Lexer.cpp
+     1>idlib\Lexer.cpp(201): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : vea la declaración de 'vsprintf'
+     1>idlib\Lexer.cpp(225): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : vea la declaración de 'vsprintf'
+         Lib.cpp
+         MapFile.cpp
+     1>idlib\MapFile.cpp(602): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : vea la declaración de 'sscanf'
+         Parser.cpp
+     1>idlib\Parser.cpp(215): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : vea la declaración de 'strcpy'
+     1>idlib\Parser.cpp(298): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : vea la declaración de 'vsprintf'
+     1>idlib\Parser.cpp(315): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : vea la declaración de 'vsprintf'
+     1>idlib\Parser.cpp(617): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : vea la declaración de 'strcpy'
+     1>idlib\Parser.cpp(658): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : vea la declaración de 'sprintf'
+     1>idlib\Parser.cpp(684): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(86) : vea la declaración de 'ctime'
+     1>idlib\Parser.cpp(703): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(86) : vea la declaración de 'ctime'
+     1>idlib\Parser.cpp(1066): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : vea la declaración de 'strcpy'
+     1>idlib\Parser.cpp(2092): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : vea la declaración de 'sprintf'
+     1>idlib\Parser.cpp(2122): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : vea la declaración de 'sprintf'
+     1>idlib\Parser.cpp(2231): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : vea la declaración de 'sprintf'
+     1>idlib\Parser.cpp(2263): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : vea la declaración de 'sprintf'
+         Str.cpp
+     1>idlib\Str.cpp(79): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : vea la declaración de 'strcpy'
+     1>idlib\Str.cpp(150): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : vea la declaración de 'strcpy'
+     1>idlib\Str.cpp(1361): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : vea la declaración de 'strncpy'
+     1>idlib\Str.cpp(1446): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : vea la declaración de 'vsprintf'
+     1>idlib\Str.cpp(1482): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : vea la declaración de '_vsnprintf'
+     1>idlib\Str.cpp(1553): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : vea la declaración de 'vsprintf'
+         Timer.cpp
+         Token.cpp
+         Bounds.cpp
+     1>idlib\bv\Bounds.cpp(4): warning C4627: '#include "../precompiled.h"': se omite al buscar el uso del encabezado precompilado
+                 Agregar directiva a 'archivo con encabezado precompilado (.h)' o volver a generar el encabezado precompilado
+         Box.cpp
+     1>idlib\bv\Box.cpp(4): warning C4627: '#include "../precompiled.h"': se omite al buscar el uso del encabezado precompilado
+                 Agregar directiva a 'archivo con encabezado precompilado (.h)' o volver a generar el encabezado precompilado
+         Frustum.cpp
+     1>idlib\bv\Frustum.cpp(4): warning C4627: '#include "../precompiled.h"': se omite al buscar el uso del encabezado precompilado
+                 Agregar directiva a 'archivo con encabezado precompilado (.h)' o volver a generar el encabezado precompilado
+         Sphere.cpp
+     1>idlib\bv\Sphere.cpp(4): warning C4627: '#include "../precompiled.h"': se omite al buscar el uso del encabezado precompilado
+                 Agregar directiva a 'archivo con encabezado precompilado (.h)' o volver a generar el encabezado precompilado
+         HashIndex.cpp
+     1>idlib\containers\HashIndex.cpp(4): warning C4627: '#include "../precompiled.h"': se omite al buscar el uso del encabezado precompilado
+                 Agregar directiva a 'archivo con encabezado precompilado (.h)' o volver a generar el encabezado precompilado
+         DrawVert.cpp
+     1>idlib\geometry\DrawVert.cpp(4): warning C4627: '#include "../precompiled.h"': se omite al buscar el uso del encabezado precompilado
+                 Agregar directiva a 'archivo con encabezado precompilado (.h)' o volver a generar el encabezado precompilado
+         JointTransform.cpp
+     1>idlib\geometry\JointTransform.cpp(4): warning C4627: '#include "../precompiled.h"': se omite al buscar el uso del encabezado precompilado
+                 Agregar directiva a 'archivo con encabezado precompilado (.h)' o volver a generar el encabezado precompilado
+         Surface.cpp
+     1>idlib\geometry\Surface.cpp(4): warning C4627: '#include "../precompiled.h"': se omite al buscar el uso del encabezado precompilado
+                 Agregar directiva a 'archivo con encabezado precompilado (.h)' o volver a generar el encabezado precompilado
+         Generando código...
+         Compilando...
+         Surface_Patch.cpp
+     1>idlib\geometry\Surface_Patch.cpp(4): warning C4627: '#include "../precompiled.h"': se omite al buscar el uso del encabezado precompilado
+                 Agregar directiva a 'archivo con encabezado precompilado (.h)' o volver a generar el encabezado precompilado
+         Surface_Polytope.cpp
+     1>idlib\geometry\Surface_Polytope.cpp(4): warning C4627: '#include "../precompiled.h"': se omite al buscar el uso del encabezado precompilado
+                 Agregar directiva a 'archivo con encabezado precompilado (.h)' o volver a generar el encabezado precompilado
+         Surface_SweptSpline.cpp
+     1>idlib\geometry\Surface_SweptSpline.cpp(4): warning C4627: '#include "../precompiled.h"': se omite al buscar el uso del encabezado precompilado
+                 Agregar directiva a 'archivo con encabezado precompilado (.h)' o volver a generar el encabezado precompilado
+         TraceModel.cpp
+     1>idlib\geometry\TraceModel.cpp(4): warning C4627: '#include "../../idlib/precompiled.h"': se omite al buscar el uso del encabezado precompilado
+                 Agregar directiva a 'archivo con encabezado precompilado (.h)' o volver a generar el encabezado precompilado
+         Winding.cpp
+     1>idlib\geometry\Winding.cpp(4): warning C4627: '#include "../precompiled.h"': se omite al buscar el uso del encabezado precompilado
+                 Agregar directiva a 'archivo con encabezado precompilado (.h)' o volver a generar el encabezado precompilado
+         Winding2D.cpp
+     1>idlib\geometry\Winding2D.cpp(4): warning C4627: '#include "../precompiled.h"': se omite al buscar el uso del encabezado precompilado
+                 Agregar directiva a 'archivo con encabezado precompilado (.h)' o volver a generar el encabezado precompilado
+         CRC16.cpp
+     1>idlib\hashing\CRC16.cpp(4): warning C4627: '#include "../precompiled.h"': se omite al buscar el uso del encabezado precompilado
+                 Agregar directiva a 'archivo con encabezado precompilado (.h)' o volver a generar el encabezado precompilado
+         CRC32.cpp
+     1>idlib\hashing\CRC32.cpp(2): warning C4627: '#include "../precompiled.h"': se omite al buscar el uso del encabezado precompilado
+                 Agregar directiva a 'archivo con encabezado precompilado (.h)' o volver a generar el encabezado precompilado
+         CRC8.cpp
+     1>idlib\hashing\CRC8.cpp(4): warning C4627: '#include "../precompiled.h"': se omite al buscar el uso del encabezado precompilado
+                 Agregar directiva a 'archivo con encabezado precompilado (.h)' o volver a generar el encabezado precompilado
+         Honeyman.cpp
+     1>idlib\hashing\Honeyman.cpp(4): warning C4627: '#include "../precompiled.h"': se omite al buscar el uso del encabezado precompilado
+                 Agregar directiva a 'archivo con encabezado precompilado (.h)' o volver a generar el encabezado precompilado
+         MD4.cpp
+     1>idlib\hashing\MD4.cpp(2): warning C4627: '#include "../precompiled.h"': se omite al buscar el uso del encabezado precompilado
+                 Agregar directiva a 'archivo con encabezado precompilado (.h)' o volver a generar el encabezado precompilado
+         MD5.cpp
+     1>idlib\hashing\MD5.cpp(2): warning C4627: '#include "../precompiled.h"': se omite al buscar el uso del encabezado precompilado
+                 Agregar directiva a 'archivo con encabezado precompilado (.h)' o volver a generar el encabezado precompilado
+         Angles.cpp
+     1>idlib\math\Angles.cpp(4): warning C4627: '#include "../precompiled.h"': se omite al buscar el uso del encabezado precompilado
+                 Agregar directiva a 'archivo con encabezado precompilado (.h)' o volver a generar el encabezado precompilado
+         Complex.cpp
+     1>idlib\math\Complex.cpp(4): warning C4627: '#include "../precompiled.h"': se omite al buscar el uso del encabezado precompilado
+                 Agregar directiva a 'archivo con encabezado precompilado (.h)' o volver a generar el encabezado precompilado
+         Lcp.cpp
+     1>idlib\math\Lcp.cpp(4): warning C4627: '#include "../precompiled.h"': se omite al buscar el uso del encabezado precompilado
+                 Agregar directiva a 'archivo con encabezado precompilado (.h)' o volver a generar el encabezado precompilado
+         Math.cpp
+     1>idlib\math\Math.cpp(4): warning C4627: '#include "../precompiled.h"': se omite al buscar el uso del encabezado precompilado
+                 Agregar directiva a 'archivo con encabezado precompilado (.h)' o volver a generar el encabezado precompilado
+         Matrix.cpp
+     1>idlib\math\Matrix.cpp(4): warning C4627: '#include "../precompiled.h"': se omite al buscar el uso del encabezado precompilado
+                 Agregar directiva a 'archivo con encabezado precompilado (.h)' o volver a generar el encabezado precompilado
+         Ode.cpp
+     1>idlib\math\Ode.cpp(4): warning C4627: '#include "../precompiled.h"': se omite al buscar el uso del encabezado precompilado
+                 Agregar directiva a 'archivo con encabezado precompilado (.h)' o volver a generar el encabezado precompilado
+         Plane.cpp
+     1>idlib\math\Plane.cpp(4): warning C4627: '#include "../precompiled.h"': se omite al buscar el uso del encabezado precompilado
+                 Agregar directiva a 'archivo con encabezado precompilado (.h)' o volver a generar el encabezado precompilado
+         Pluecker.cpp
+     1>idlib\math\Pluecker.cpp(4): warning C4627: '#include "../precompiled.h"': se omite al buscar el uso del encabezado precompilado
+                 Agregar directiva a 'archivo con encabezado precompilado (.h)' o volver a generar el encabezado precompilado
+         Generando código...
+     1>d:\maxi\doom3mods\doom3sdkfull\src\idlib\math\matrix.cpp(3637): warning C4750: 'class idMatX & __thiscall idMatX::SwapRows(int,int)': función con _alloca() insertada en un bucle
+     1>d:\maxi\doom3mods\doom3sdkfull\src\idlib\math\lcp.cpp(642): warning C4750: 'void __thiscall idLCP_Square::CalcForceDelta(int,float)': función con _alloca() insertada en un bucle
+         Compilando...
+         Polynomial.cpp
+     1>idlib\math\Polynomial.cpp(4): warning C4627: '#include "../precompiled.h"': se omite al buscar el uso del encabezado precompilado
+                 Agregar directiva a 'archivo con encabezado precompilado (.h)' o volver a generar el encabezado precompilado
+         Quat.cpp
+     1>idlib\math\Quat.cpp(4): warning C4627: '#include "../precompiled.h"': se omite al buscar el uso del encabezado precompilado
+                 Agregar directiva a 'archivo con encabezado precompilado (.h)' o volver a generar el encabezado precompilado
+         Rotation.cpp
+     1>idlib\math\Rotation.cpp(4): warning C4627: '#include "../precompiled.h"': se omite al buscar el uso del encabezado precompilado
+                 Agregar directiva a 'archivo con encabezado precompilado (.h)' o volver a generar el encabezado precompilado
+         Simd.cpp
+     1>idlib\math\Simd.cpp(4): warning C4627: '#include "../precompiled.h"': se omite al buscar el uso del encabezado precompilado
+                 Agregar directiva a 'archivo con encabezado precompilado (.h)' o volver a generar el encabezado precompilado
+         Simd_3DNow.cpp
+     1>idlib\math\Simd_3DNow.cpp(4): warning C4627: '#include "../precompiled.h"': se omite al buscar el uso del encabezado precompilado
+                 Agregar directiva a 'archivo con encabezado precompilado (.h)' o volver a generar el encabezado precompilado
+         Simd_Generic.cpp
+     1>idlib\math\Simd_Generic.cpp(4): warning C4627: '#include "../precompiled.h"': se omite al buscar el uso del encabezado precompilado
+                 Agregar directiva a 'archivo con encabezado precompilado (.h)' o volver a generar el encabezado precompilado
+         Simd_MMX.cpp
+     1>idlib\math\Simd_MMX.cpp(4): warning C4627: '#include "../precompiled.h"': se omite al buscar el uso del encabezado precompilado
+                 Agregar directiva a 'archivo con encabezado precompilado (.h)' o volver a generar el encabezado precompilado
+         Simd_SSE.cpp
+     1>idlib\math\Simd_SSE.cpp(4): warning C4627: '#include "../precompiled.h"': se omite al buscar el uso del encabezado precompilado
+                 Agregar directiva a 'archivo con encabezado precompilado (.h)' o volver a generar el encabezado precompilado
+         Simd_SSE2.cpp
+     1>idlib\math\Simd_SSE2.cpp(4): warning C4627: '#include "../precompiled.h"': se omite al buscar el uso del encabezado precompilado
+                 Agregar directiva a 'archivo con encabezado precompilado (.h)' o volver a generar el encabezado precompilado
+         Simd_SSE3.cpp
+     1>idlib\math\Simd_SSE3.cpp(4): warning C4627: '#include "../precompiled.h"': se omite al buscar el uso del encabezado precompilado
+                 Agregar directiva a 'archivo con encabezado precompilado (.h)' o volver a generar el encabezado precompilado
+         Vector.cpp
+     1>idlib\math\Vector.cpp(4): warning C4627: '#include "../precompiled.h"': se omite al buscar el uso del encabezado precompilado
+                 Agregar directiva a 'archivo con encabezado precompilado (.h)' o volver a generar el encabezado precompilado
+         Generando código...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(D:\Maxi\Doom3Mods\Doom3SDKFull\src\idLib/ReleaseDLL\idlib.lib) no coincide con el valor de la propiedad OutputFile de Library (D:\Maxi\Doom3Mods\Doom3SDKFull\src\ReleaseDLL\idLib.lib). Esto puede hacer que el proyecto no se compile correctamente. Para solucionar este problema, asegúrese de que los valores de propiedad $(OutDir), $(TargetName) y $(TargetExt) coinciden con el valor especificado en %(Lib.OutputFile).
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"./ReleaseDLL/idLib.lib" /NOLOGO idLib/ReleaseDLL\Base64.obj
+         idLib/ReleaseDLL\BitMsg.obj
+         idLib/ReleaseDLL\CmdArgs.obj
+         idLib/ReleaseDLL\Dict.obj
+         idLib/ReleaseDLL\Heap.obj
+         idLib/ReleaseDLL\LangDict.obj
+         idLib/ReleaseDLL\Lexer.obj
+         idLib/ReleaseDLL\Lib.obj
+         idLib/ReleaseDLL\MapFile.obj
+         idLib/ReleaseDLL\Parser.obj
+         idLib/ReleaseDLL\Str.obj
+         idLib/ReleaseDLL\Timer.obj
+         idLib/ReleaseDLL\Token.obj
+         idLib/ReleaseDLL\Bounds.obj
+         idLib/ReleaseDLL\Box.obj
+         idLib/ReleaseDLL\Frustum.obj
+         idLib/ReleaseDLL\Sphere.obj
+         idLib/ReleaseDLL\HashIndex.obj
+         idLib/ReleaseDLL\DrawVert.obj
+         idLib/ReleaseDLL\JointTransform.obj
+         idLib/ReleaseDLL\Surface.obj
+         idLib/ReleaseDLL\Surface_Patch.obj
+         idLib/ReleaseDLL\Surface_Polytope.obj
+         idLib/ReleaseDLL\Surface_SweptSpline.obj
+         idLib/ReleaseDLL\TraceModel.obj
+         idLib/ReleaseDLL\Winding.obj
+         idLib/ReleaseDLL\Winding2D.obj
+         idLib/ReleaseDLL\CRC16.obj
+         idLib/ReleaseDLL\CRC32.obj
+         idLib/ReleaseDLL\CRC8.obj
+         idLib/ReleaseDLL\Honeyman.obj
+         idLib/ReleaseDLL\MD4.obj
+         idLib/ReleaseDLL\MD5.obj
+         idLib/ReleaseDLL\Angles.obj
+         idLib/ReleaseDLL\Complex.obj
+         idLib/ReleaseDLL\Lcp.obj
+         idLib/ReleaseDLL\Math.obj
+         idLib/ReleaseDLL\Matrix.obj
+         idLib/ReleaseDLL\Ode.obj
+         idLib/ReleaseDLL\Plane.obj
+         idLib/ReleaseDLL\Pluecker.obj
+         idLib/ReleaseDLL\Polynomial.obj
+         idLib/ReleaseDLL\Quat.obj
+         idLib/ReleaseDLL\Rotation.obj
+         idLib/ReleaseDLL\Simd.obj
+         idLib/ReleaseDLL\Simd_3DNow.obj
+         idLib/ReleaseDLL\Simd_Generic.obj
+         idLib/ReleaseDLL\Simd_MMX.obj
+         idLib/ReleaseDLL\Simd_SSE.obj
+         idLib/ReleaseDLL\Simd_SSE2.obj
+         idLib/ReleaseDLL\Simd_SSE3.obj
+         idLib/ReleaseDLL\Vector.obj
+         idlib.vcxproj -> D:\Maxi\Doom3Mods\Doom3SDKFull\src\idLib/ReleaseDLL\idlib.lib
+       FinalizeBuildStatus:
+         Se eliminará el archivo "idLib/ReleaseDLL\idlib.unsuccessfulbuild".
+         Aplicando tarea Touch a "idLib/ReleaseDLL\idlib.lastbuildstate".
+     1>Compilación del proyecto terminada "D:\Maxi\Doom3Mods\Doom3SDKFull\src\idlib.vcxproj" (build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:59.53
